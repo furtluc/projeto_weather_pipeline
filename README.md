@@ -1,8 +1,5 @@
 # Weather Pipeline
 
-Projeto desenvolvido com base no tutorial da @vbluuiza:
-https://youtu.be/I8qPqbXQBDU?si=ix8YOU_q2vGTsqTA
-
 Este projeto implementa um pipeline de dados responsável por extrair informações meteorológicas da API OpenWeather, realizar transformações utilizando Pandas e carregar os dados em um banco PostgreSQL.
 
 Todo o processo ETL é orquestrado por uma DAG no Apache Airflow, executada em containers Docker.
@@ -32,3 +29,8 @@ Os dados utilizados neste projeto correspondem às condições meteorológicas d
 ## Pipeline em execução
 
 ![Airflow DAG](images/airflow_dag_rodando.png)
+
+-- 
+Este projeto foi desenvolvido a partir de um tutorial da criadora de conteúdo @vbluuiza, servindo como base para estudos em Engenharia de Dados. Durante o desenvolvimento foram realizadas adaptações, correções e ajustes para compatibilidade com WSL, Docker e PostgreSQL, além de alterações no pipeline para acompanhar mudanças na API utilizada.
+
+**Referência:** [Tutorial da @vbluuiza](https://youtu.be/I8qPqbXQBDU?si=ix8YOU_q2vGTsqTA)
