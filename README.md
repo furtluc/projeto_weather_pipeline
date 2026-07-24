@@ -17,6 +17,10 @@ Os dados utilizados neste projeto correspondem às condições meteorológicas d
 - Docker
 - PostgreSQL
 
+## Estrutura do projeto
+
+![Estrutura do projeto](images/estrutura_projeto.png)
+
 ## Fluxo do pipeline
 
 1. Extração dos dados da API OpenWeather.
@@ -24,3 +28,7 @@ Os dados utilizados neste projeto correspondem às condições meteorológicas d
 3. Conversão e padronização das colunas.
 4. Armazenamento dos dados no PostgreSQL.
 5. Orquestração completa através do Airflow.
+
+## Pipeline em execução
+
+![Airflow DAG](images/airflow_dag_rodando.png)
